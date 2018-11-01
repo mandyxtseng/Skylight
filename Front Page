@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Skylight Front Page</title>
+    <style>
+        
+    input[type=text],input[type=number],input[type=password] {
+    float: right;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+    input[type=submit] {
+    float: right;
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+    input[type=submit]:hover {
+    float:right;
+    background-color: cornflowerblue;
+}
+        
+    #small {
+    font-size: 8px;
+    text-align: center;
+    display: block;
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}    
+        
+    #login {
+    font-size: 12px;
+    text-align: center;
+}
+    .colum1of2 {
+    float: left;
+    width: 620px;
+    margin: 10px;
+}
+    .colum2of2 {
+    float: right;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    width: 360px;
+    height: auto;
+}
+<!-- Company Name -->        
+    h1, h2 {
+    margin-right: 1px;
+}
+    input[type=help] {
+    position: fixed;
+    top: auto;
+    left: 1100px;
+    width: 90px;
+    border: none;
+    color: black;
+    padding: 10px 1px;
+    text-decoration: none;
+    cursor: pointer;    
+}
+    input[type=signin]{
+    position: fixed;
+    top: auto;
+    left: 1150px;
+    width: 90px;
+    border: none;
+    color: black;
+    padding: 10px 1px;
+    text-decoration: none;
+    cursor: pointer; 
+}
+    input[type=becomeaninstructor] {
+    position: fixed;
+    top: auto;
+    left: 1200px;
+    width: auto;
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    padding: 10px 1px;
+    text-decoration: none;
+    cursor: pointer;    
+}
+    input[type=becomeaninstructor]:hover {
+    background-color: cornflowerblue;
+}
+        
+    </style>
+    </head>    
+        
+    <body>
+      
+    <div>
+        <input type="help" value="Help">
+        <input type="signin" value="Sign In">
+        <input type="becomeaninstructor" value="Become An Instructor">
+    </div>  
+        
+    <div class="column1of2">
+        <h1 style="color:dodgerblue;">Skylight</h1>
+        <h2>Book Classes from anywhere<br/>in the World.</h2>
+    </div>
+    
+    <div class="column1of2">
+    <form>
+        <input type="text" name="search" placeholder="Search"/>
+        <input type="submit" value="Search"/>
+    </form>  
+    </div>    
+        
+    <div class="column2of2">
+    <form action="/action_page.php">
+        <input type="text" id="firstname" name="firstname" placeholder="First Name">
+        <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+        <input type="number" id="cellphonenumber" name="cellphonenumber" placeholder="Cellphone Number">
+        <input type="text" id="email" name="email" placeholder="Email"><input type="password" id="password" name="password" placeholder="Password">
+        <input type="submit" value="Sign Up">
+        <p id="small">By clicking "Sign Up", you agree to Skylight's <br><span style="color:dodgerblue;">Terms and Conditions</span> and <span style="color:dodgerblue;">Privacy Policy</span></p>
+    <hr/>
+        <p id="login">Already have a Skylight account? <span style="color:dodgerblue;">Log In</span></p>
+    </form>
+    </div>
+    
+    <div>
+        <p>Time</p>
+        <p>Either in the morning, during the day, or even in the middle of the night. It's on your terms, when would you like to take the class?</p>
+        <p>Location</p>
+        <p>The weather may be lovely to take the class outdoors, or the rain could be pouring outside your window. Choose a wi-fi stable location, anywhere you are in the world.</p>
+        <p>Convenient</p>
+        <p>Knowledge about the class, instuctor, and price. Convenient to pay, and super reliable, never worry about the details ever again.</p>
+        <button onclick="displayResult()"><b>Find out more about the classes</b></button>
+    </div>
+    </body>
+        
+    <footer>
+    <div>
+    <hr/>    
+        <p>English</p>
+        <p>New Taiwan Dollar</p>
+    </div>
+    
+    <div>
+        <p><b>Skylight</b></p>
+        <p>Careers</p>
+        <p>Policies</p>
+        <p>Help</p>
+    </div>
+    
+    <div>
+        <p><b>Discover</b></p>
+        <p>Skylight Credit</p>
+        <p>Gift Cards</p>
+    </div>
+    
+    <div>
+        <p><b>Teaching</b></p>
+        <p>Why Teach</p>
+        <p>Responsible Instructors</p>
+    <hr/>     
+        <p><b>Skylight, Inc.</b></p>
+        <p>Terms</p>
+        <p>Privacy</p>
+    </div>
+    </footer>
