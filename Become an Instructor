@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Become an Instructor</title>
+    </head>
+    
+    <body> 
+    <div>
+        <p>Help</p>
+        <p>Sign In</p>
+        <p><button onclick="displayResult()"><b>Become an Instructor</b></button></p>
+    </div>
+        
+    <div>
+        <p style="color:dodgerblue"><b>Register a Skylight Account</b></p>
+        <p><b>Sign Up Right Now</b></p>
+        <p><b>INSTUCT ON SKYLIGHT</b></p>
+        <p>Earn money leading people on topics and classes you excel at</p>
+    <hr/>
+        <p>What are Skylight Classes?</p>
+        <p><b>Why teach on Skylight?</b></p>
+        <p>No matter what you teach, Skylight makes it simple and secure to earn money and reach students looking for unique teachers, just like you.</p>
+        <p><b>You're in control</b></p>
+        <p>With Skylight, you're in full control of your availability, prices, teaching method, and how you interact with your students. You can set class times and handle the process however you like.</p>
+        <p><b>We're there at every step</b></p>
+        <p>Skylight offers tools, teaching tips, 24/7 support, and an online community of experienced teachers for questions and sharing ideas for success.</p>
+    <hr/> 
+        <p><b>How to get started</b></p>
+        <p><b>Create a Skylight Account</b></p>
+        <p>Sign up online, within a couple of minutes</p>
+        <p><b>Register an Account</b></p>
+        <p><b>Create your listing</b></p>
+        <p>Setting up the details, such as : Topic of choice, time, subject, and a little about youself, experiences.</p>
+        <p><b>Start Teaching and Get paid</b></p>
+        <p>After getting to know your student via Skylight app, based on what he or she would like to learn, and what you can offer them. Join the Skylight app and call your student via the agreed time, and get paid within 24 hours.
+        </p>
+    <hr/>
+        <p><b>Safety on Skylight</b></p>
+        <p><b>Skylight is built on trust</b></p>
+        <p>All Skylight students must verify their email and submit a payment method.</p> 
+        <p>Students and teachers each publish reviews after class keeping everyone accountable and respectful.</p>
+    <hr/>
+        <p><b>Frequently asked questions</b></p>
+        <p><b>GETTING STARTED</b></p>
+        <p>Who can teach a class?</p> 
+    <hr/>
+        <p>What should I include in my class?</p>
+        <p><b>EARNINGS</b></p>
+        <p>How do I set my hourly price?</p> 
+    <hr/>
+        <p>How do I know if my payment is ready?</p>
+    </div>
+    
+    <div>
+        <p><b>Start creating your listings</b></p>
+        <p><b>Get Started</b></p>
+    <hr/>
+        <p>English</p>
+        <p>New Taiwan Dollar</p>
+    </div>
+    
+    <div>
+        <p><b>Skylight</b></p>
+        <p>Careers</p>
+        <p>Policies</p>
+        <p>Help</p>
+    </div>
+    
+    <div>
+        <p><b>Discover</b></p>
+        <p>Skylight Credit</p>
+        <p>Gift Cards</p>
+    </div>
+    
+    <div>
+        <p><b>Teaching</b></p>
+        <p>Why Teach</p>
+        <p>Responsible Instructors</p>
+    <hr/>
+        <p><b>Skylight, Inc.</b></p>
+        <p>Terms</p>
+        <p>Privacy</p>
+    </div>
+    </body>
