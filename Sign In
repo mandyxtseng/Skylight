@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <!--iframe-->
+    <head>
+        <title>Sign In</title>
+    <style>
+    [type=text] {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+    [type=password] {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+    input[type=submit] {
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+    input[type=submit]:hover {
+    background-color: cornflowerblue;
+}
+    div {
+    padding: 100px;
+}
+    #signup {
+    font-size: 12px;
+    text-align: center;
+}
+    #rememberme {
+    color: dodgerblue;
+    font-size: 12px;
+}
+    #showpassword {
+    color: dodgerblue;
+    font-size: 12px;
+}
+    </style>        
+    </head>
+    
+    <body>
+    <div>
+    <form action="/action_page.php">
+        <input type="text" id="email" name="email" placeholder="Email" required="required"><br/>
+        <input type="password" id="password" name="password" placeholder="Password" required="required">
+        <input type="checkbox" value="rememberme">Remember me
+        <input type="checkbox" value="showpassword">Show Password
+        <input type="submit" value="Log In">
+    </form>
+    <hr/>
+        <p id=signup>Don't have an account? <span style="color:dodgerblue;">Sign Up</span></p>
+    </div>
+    </body>
